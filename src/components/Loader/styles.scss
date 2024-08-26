@@ -1,0 +1,28 @@
+.spinner {
+  fill: #f04259;
+  animation: spin 2s linear infinite;
+
+  &.md {
+    width: 45px;
+    height: 45px;
+  }
+
+  &.sm {
+    width: 24px;
+    height: 24px;
+  }
+
+  &.lg {
+    width: 64px;
+    height: 64px;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

@@ -1,1 +1,27 @@
 node_modules
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Yarn lock file
+yarn.lock
+
+# Next.js build
+.next/
